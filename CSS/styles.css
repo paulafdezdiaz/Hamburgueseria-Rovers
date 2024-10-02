@@ -1,0 +1,92 @@
+html{
+    font-family: "Montserrat";
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.cabecera1{
+    height: 50px;
+    background-color: #030623;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 125px;
+}
+.icono{
+    width: 25px;
+    margin: 15px;
+}
+.enlace{
+    text-decoration: none;
+    color: white;
+    display: none;
+}
+.cabecera2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.logo{
+    width: 80px;
+    height: 25px;
+}
+.menu{
+    width: 40px;
+    display: grid;
+    
+  
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.enlace2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(163, 159, 159);
+    border-bottom: 1px solid rgb(164, 162, 162);
+    width: 40%;
+    text-decoration: none;
+
+}
+.section1{
+    background-image: url(../images/fondo.jpg);
+    height: 500px;
+    background-position:center;
+}
+.texto{
+    display: grid
+}
+.lasmejores{
+    font-family: "handlee";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+} 
+.Bienvenida{
+    color: rgb(212, 84, 4);   
+    font-size: 20px;
+    margin: 10px;
+}
+.precio{
+    color: white;
+    font-size: 15px; 
+    margin: 10px;
+}
+.carta{
+    margin: 10px;
+}
+.redes{
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+
+}

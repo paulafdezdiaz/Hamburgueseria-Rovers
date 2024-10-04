@@ -9,8 +9,9 @@ html{
 }
 .contacto{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row ;
+    justify-content: space-around;
+
     gap: 125px;
 }
 .icono{

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hamburguesería Rovers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,27 +14,26 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
    <header>
-        <div class="cabecera1">
-            <ul>
+        <div>
+            <ul class="encabezado">
                 <li class="contacto">
-                    <i class="fa-solid fa-envelope" ></i>
+                    <i class="fa-solid fa-envelope"></i>
                     <a href="#" class="enlace">rover@gmail.com</a>
                 </li>
-                <li class="contacto">
-                    <i class="fa-solid fa-phone" ></i>
+                <li class="contacto" >
+                    <i class="fa-solid fa-phone " class="icono"></i>
                     <a href="#" class="enlace">91 555 66 77</a>
                 </li> 
                 <li class="contacto">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping " class="icono"></i>
                     <a href="#" class="enlace">carrito compra</a>
                 </li>
                 <li class="contacto">
-                    <i class="fa-solid fa-circle-user"></i>
+                    <i class="fa-solid fa-circle-user" class="icono"></i>
                     <a href="#" class="enlace">Usuario</a>
                 </li>
             </ul>
@@ -44,9 +43,9 @@
             <img src="https://img.icons8.com/?size=100&id=43546&format=png&color=737373" alt="menu" class="menu"/>
         </div>
                 <nav>
-                    <ul>
+                    <ul class="listado">
                         <li class="menu2">
-                            <a class="enlace2" href="#">Inicio</a>
+                            <a class=" naranja" href="#">Inicio</a>
                         </li>
                         <li class="menu2">
                             <a class="enlace2" href="#">Menu</a>
@@ -60,75 +59,103 @@
                     </ul>
                 </nav>
     </header>
-    <section class="section1">
-        <ul class="texto">
-            <li>
-                <h1 class="lasmejores">Las mejores hamburguesas del mundo</h1>
-            </li>
-            <li>
-                <h2 class="Bienvenida">Bienvenido a nuestra hamburguesería</h2>
-            </li>
-            <li>
-                <h3 class="precio">Come a partir de 15€</h3>
-            </li>
-            <li>
-                <button class="carta" type="button" >Nuestra carta-></button> 
-            </li>
-        </ul>
-        <ul class="redes">
-            <li class="link">
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li class="link">
-                <i class="fa-brands fa-twitter"></i>
-            </li>
-            <li class="link">
-                <i class="fa-brands fa-instagram"></i>
-            </li>
-        </ul>
-        <section class="section2">
-            <h2 class="servicios">Our <span>Services</span></h2>
+    <main>
+        <section class="section1">
             <ul>
-                <li class="punto">
-                    <i class="fa-solid fa-gears" ></i>
-                    <h3>1. Carne 100% natural</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
-                    <button class="Leer" type="button" >Leer más -></button> 
+                <li class="texto">
+                    <h1 class="lasmejores">Las mejores hamburguesas del mundo</h1>
                 </li>
-                <li class="punto">
-                    <i class="fa-solid fa-truck" ></i>
-                    <h3>2. Cocina Moderna</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
-                    <button class="Leer" type="button" >Leer más -></button> 
+                <li class="texto">
+                    <h2 class="Bienvenida">Bienvenido a nuestra hamburguesería</h2>
                 </li>
-                <li class="punto">
-                    <i class="fa-solid fa-heart" ></i>
-                    <h3>3. Servicio impecable</h3>
+                <li class="texto">
+                    <h3 class="precio">Come a partir de 15€</h3>
+                </li>
+                <li class="texto">
+                    <a href="#" class="carta">Nuestra carta→</a>
+                </li>
+            </ul>
+            <ul class="redes">
+                <li class="link">
+                    <a href="#"></a>
+                        <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="link">
+                    <a href="#"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="link">
+                    <a href="#"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+            </ul>
+            </section>
+            <section >
+                <h2 class="servicios">Our <span>Services</span></h2>
+                <div class="contenedor">
+                    <hr class="linea1"/>
+                    <p class="X">X</p>
+                </div>
+                <ul>
+                    <li class="punto">
+                        <i class="fa-solid fa-gears" ></i>
+                        <h3>1. Carne 100% natural</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
+                        <a href="#" class="Leer">Leer más→</a>
+                    </li>
+                    <li class="punto">
+                        <i class="fa-solid fa-truck" ></i>
+                        <h3>2. Cocina Moderna</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
+                        <a href="#" class="Leer">Leer más→</a> 
+                    </li>
+                    <li class="punto">
+                        <i class="fa-solid fa-heart" ></i>
+                        <h3>3. Servicio impecable</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
+                        <a href="#" class="Leer">Leer más→</a>
+                    </li>
+                </ul>
+            </section>
+        <section class="section3">
+            <h2 class="sobrenosotros">About <span>US</span></h2>
+            <div class="contenedor">
+                <hr class="linea1"/>
+                <p class="X">X</p>
+            </div>
+            <div class="marco">
+            <img src="./images/about-main.jpg" alt="cocinero" class="espera">
+            </div>
+            <ul>
+                <li class="historia">  
+                    <h3>The History</h3>
+                </li>
+                <li class="restaurante">  
+                    <h3>Our restaurant</h3>
+                </il>
+                <li class="parrafo">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
-                    <button class="Leer" type="button" >Leer más -></button> 
+                </li>
+                <li>
+                    <a href="#" class="Leerboton">Leer más→</a>
                 </li>
             </ul>
         </section>
-    <section class="section3">
-        <h2 class="sobrenosotros">About <span>US</span></h2>
-        <img src="./images/about-main.jpg" alt="cocinero">
-        <ul>
-            <li class="historia">  
-                <h3>The History</h3>
-            </li>
-            <li class="restaurante">  
-                <h3>Our restaurant</h3>
-            </il>
-            <li class="parrafo">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quasi eos, modi dicta id magnam architecto quibusdam aliquid sapiente molestiae aperiam eum quas deleniti quaerat error placeat accusamus earum. Voluptatem.</p>
-            </li>
+    </main>
+    <footer>
+        <ul class="piepagina">
             <li>
-                <button class="Leerboton" type="button" >Leer más -></button> 
+                <a href="#" class="avisos">Copyright©2020</a>
+            </li>
+            <li> - </li>
+            <li>
+                <a href="#" class="avisos">Aviso Legal</a>
+            </li>
+            <li> - </li>
+            <li>
+                <a href="#" class="avisos">Cookies</a>
             </li>
         </ul>
-    </section>
+    </footer>
 </body>
-<footer>
-
-</footer>
 </html>

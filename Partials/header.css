@@ -4,35 +4,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 60px;
 
 }
-
+.contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
 .contacto i{
     border: none;
-    margin: 15px;
+    margin-top: 20px;
     color: rgb(213, 101, 20);
-
 }
 
 .enlace{
-    text-decoration: none;
-    color: white;
     display: none;
 }
 
 .cabecera2{
+    margin: 5px;
+}
+.cabecera2 i{
+    font-size: 30px;
+    color: rgb(164, 162, 162);
+}
+.cabecera2 i:hover{
+    transform: rotate(90deg);
+}
+.encabezado2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5px;
 }
 .logo{
     width: 80px;
     height: 25px;
-}
-.menu{
-    width: 40px;
-
 }
 
 .menu2{
@@ -41,7 +48,8 @@
     justify-content: center;
     border-bottom: 1px solid rgb(164, 162, 162);
     width: 90%;
-    margin: 20px;
+    margin: 10px;
+
 }
 
 .menu2:last-child{

@@ -2,6 +2,7 @@
 @import url("../Partials/header.css");
 @import url("../Partials/Main.css");
 @import url("../Partials/Footer.css");
+@import url("../Partials/Mediaqueries.css");
 
 html{
     font-family: "Montserrat";

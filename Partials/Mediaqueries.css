@@ -1,0 +1,63 @@
+
+@media(min-width:768px){
+    .enlace{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .cabecera2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .encabezado2 i{
+        display: none;
+    }
+
+    .menu2{
+        border: none;
+        font-size: small;
+        margin: 0;
+
+    }
+    .hamburguesa{
+        display: block;
+     }
+     .redes{
+        display: flex;
+        margin: 30px;
+     }
+    .X{
+        right: 380px;
+    }
+    section ul{
+        display: flex;
+
+    }
+    .punto{
+        border-bottom: none;
+        border-left: 2px solid rgb(149, 145, 145);;
+    }
+    .aboutus{
+        display: flex;
+        align-items: center;
+    }
+    .aboutus ul{
+        display:block;
+    }
+
+    }   
+    @media(min-width:1024px){
+        .X{
+            right: 505px;
+        }
+    }
